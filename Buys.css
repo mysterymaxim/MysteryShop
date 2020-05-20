@@ -2,19 +2,22 @@
 .product-item {
   width: 300px;
   margin: 0 auto;
-  padding: 10px 10px 5px 10px;
-  border: 1px solid #eee;
   background: white;
   font-family: "Open Sans";
   overflow: hidden;
   transition: .4s linear;
-  border: 12px lightblue ridge ;
 }
 .product-img {transition: 1s ease-in-out;}
 .product-img:hover {transform: scale(1.1);}
 .product-img img {
   display: block;
   width: 100%;
+}
+.product-wrap
+{
+	padding: 20px;
+	border: 1px solid #eee;
+	border: 12px lightblue ridge ;
 }
 .product-list {margin-top: 15px;}
 .product-list h3 {
@@ -60,4 +63,7 @@ margin-bottom: 20px;
 }
 
 
-
+.three-col-grid .grid-item {
+	width: 380px;
+	float: left;
+  }
