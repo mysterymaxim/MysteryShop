@@ -7,6 +7,7 @@
 	<title>MysteryShop</title>
 	<link rel="icon" type="image/x-icon" href="favicon.ico">
 	<link href="MysteryShop.css" type="text/css" rel="stylesheet"> 
+	<link href="Reviews.css" type="text/css" rel="stylesheet"> 
 </head>
 <body>
 	
@@ -19,23 +20,42 @@
 		<a href="Vidios.html"> Видио </a>
 		<a href="Forum.html">Форум </a>
 		<a href="Money.html">Помощь-Проекту</a>
+		<a href="News.html">Новости</a>
+	  </div>
+	<div class="container">
+		<section id="content">
+			<form action="">
+				<h1>Добавить отзыв</h1>
+				<div>
+					<label>Ваше Имя и Фамилия:</label>
+					<input type="text" id="fio">
+				</div>
+				<div>
+					<label>Отзыв:</label>
+	                <textarea id="comment"></textarea>
+				</div>
+				<div>
+					<input type="submit" id="click" onclick="saveF()" value="Сохранить">
+				</div>
+			</form>
+		</section>
 	</div>
+
 	
 	
-	<big>
-		<big>
-			<big>
-				<big>
-					<big>
-						<big>
-							<h1>В разработке...</h1>
-						</big>
-					</big>
-				</big>
-			</big>
-		</big>
-	</big>
 	
+
+
+	<h1>Ваши отзывы:</h1>
 	
+	<div class="container">
+		<p><span>Максим Родионов</span></p>
+		<p>Сайт очень крутой! Оптимизация вообще топчик. Надеюсь вы станете лучшими. Удачи!</p>
+	  </div>
+	 
+
+	  
+
+
 </body>
 </html>
